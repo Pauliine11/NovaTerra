@@ -30,7 +30,7 @@ async function load(){
 
         //forEach() -> console.log(item);
 
-        array.forEach((listObject) => console.log(listObject));
+        
 
 
     }catch(error){
