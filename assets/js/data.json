@@ -2,71 +2,72 @@
     {
         "id" : 1,
         "nom" : "Pandora",
-        "prix" : 9.500000,
-        "description" : " Imaginez une planète où les jungles ne dorment jamais, illuminées par une mer infinie de lumières fluorescentes naturelles, abritant des arbres intelligents capables de communiquer entre eux par bioluminescence. Un climat stable, une atmosphère respirable ainsi qu'une faune pacifique. Parfaite pour des colonies éco-responsables ou des centres de retraite spatiale.",
+        "prix" : 9500044,
+        "description" : "Imaginez une planète illuminées par une mer infinie de lumières fluorescentes naturelles, abritant des arbres intelligents capables de communiquer entre eux par bioluminescence. Un climat stable, parfaite pour des colonies éco-responsables ou des centres de retraite spatiale.",
         "img": "pandora.jpg"
     },
     {
         "id" : 2,
         "nom" : "Dunalis",
-        "prix" : 32.00000,
+        "prix" : 32000.33,
         "description" : "Une planète aride mais riche en cristaux énergétiques utilisés pour la propulsion quantique. Ses tempêtes électriques sont spectaculaires mais prévisibles. Recommandée pour les exploitations minières ou les aventuriers technologiques.",
         "img": "Dunalis.png"
     },
     {
         "id" : 3,
         "nom" : "Veloria",
-        "prix" : 1.2000000,
+        "prix" : 120000.22,
         "description" : "Recouverte à 98 % d’eau, Veloria dispose d’îles volantes soutenues par des bulles magnétiques. Faune marine intelligente. Idéale pour la recherche, le tourisme de luxe ou la construction de villes suspendues.",
         "img": "veloria.png"
     }, 
     {
         "id" : 4,
         "nom" : "Cryostella",
-        "prix" : 67.00000,
+        "prix" : 67000.66,
         "description" : "Planète de glace traversée de canyons où vivent des créatures cristallines. Le ciel nocturne y est constellé d’aurores persistantes. Atmosphère respirable avec assistance légère. Un bijou pour les artistes, les mystiques ou les chercheurs de solitude.",
         "img": "cryostella.jpg"
     },
     {
         "id" : 5,
         "nom" : "Evolyss",
-        "prix" : 1.5000000,
+        "prix" : 15000.99,
         "description" : "Son écosystème s’adapte à la volonté de ses habitants. Vous voulez une forêt ? Elle pousse. Un désert ? Il s’étend. Biotechnologie avancée intégrée au sol. Parfaite pour les projets de civilisation utopique... ou dystopique.",
         "img": "evolyss.jpg"
     },
     {
         "id" : 6,
         "nom" : "Cindralis",
-        "prix" : 25.00000,
+        "prix" : 250.85,
         "description" : "Sous ses paysages infernaux se cachent d’énormes réserves de métaux rares. Les fleuves de lave sont utilisés pour l’énergie thermique directe. Pour investisseurs à gros risques ou scientifiques en quête d'extrêmes.",
         "img": "cindralis.png"
     },
     {
         "id" : 7,
         "nom" : "Elarune",
-        "prix" : 8.800000,
+        "prix" : 880.99,
         "description" : "La planète est couverte d’une forêt reliée à un réseau mycélien intelligent. Les arbres enregistrent les souvenirs de ceux qui s’y reposent. Spirituelle et étrange. Recommandée pour communautés druidiques, bibliothèques vivantes ou expérimentations psychiques.",
         "img": "Elarune.png"
     },
     {
         "id" : 8,
         "nom" : "Zelphyr",
-        "prix" : 5.600000,
+        "prix" : 5600.79,
         "description" : "Planète géante gazeuse où des cités planent sur des radeaux aériens. Faune flottante, vents musicaux constants. Danger : ne jamais toucher la surface toxique. Mode de vie nomade dans les airs. Parfaite pour les poètes, pirates célestes ou cultures volantes.",
         "img": "zelphyr.jpg"
     },
     {
         "id" : 9,
-        "nom" : "Gaia Nova",
-        "prix" : 12.0000000,
-        "description" : "Gaia Nova est une planète située dans le système d’Élysia, à seulement 45 années-lumière de la Terre. Elle offre un écosystème exceptionnellement équilibré, avec des forêts luminescentes, des océans cristallins riches en bio-diversité, et une atmosphère naturellement filtrée, idéale pour le développement d’une civilisation avancée qui place le respect de la nature au cœur de son mode de vie. Grâce à ses vastes réserves de ressources organiques renouvelables et ses conditions climatiques stables, Gaia Nova est la planète parfaite pour construire des cités écologiques autonomes, où technologie de pointe et nature cohabitent en parfaite symbiose.",
-        "img": "gaiaNova.png"
+        "nom" : "Orialis",
+        "prix" : 200.65,
+        "description" : "Chaque région est calibrée pour offrir des biomes parfaits : plages éternelles, montagnes paisibles, prairies florales. Intelligence planétaire intégrée, auto-gestion écologique. Limitée à 1000 habitants pour préserver son équilibre. Perle rare pour l’élite galactique.",
+        "img": "orialis.jpg"
     },
     {
         "id" : 10,
-        "nom" : "Orialis",
-        "prix" : 2.0000000,
-        "description" : "Chaque région est calibrée pour offrir des biomes parfaits : plages éternelles, montagnes paisibles, prairies florales. Intelligence planétaire intégrée, auto-gestion écologique. Limitée à 1000 habitants pour préserver son équilibre. Perle rare pour l’élite galactique.",
-        "img": "orialis.jpg"
+        "nom" : "Gaia Nova",
+        "prix" : 120.45,
+        "description" : "Gaia Nova offre un écosystème exceptionnellement équilibré avec des océans cristallins riches en bio-diversité, idéale pour le développement d’une civilisation qui place le respect de la nature au cœur de son mode de vie. Grâce à ses vastes réserves de ressources organiques renouvelables et ses conditions climatiques stables, Gaia Nova est la planète où technologie de pointe et nature cohabitent en parfaite symbiose.",
+        "img": "gaiaNova.png"
     }
+    
 ]

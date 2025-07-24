@@ -10,38 +10,37 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f5a1d28d53.js" crossorigin="anonymous"></script>
-    <title>Boutique Planètes</title>
+    <title>NovaTerra</title>
 </head>
 <body>
     <header>
-        <nav class="navbar bg-dark">
+        <nav class="navbar bg-body-dark mb-4">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                <img src="assets/img/logo.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top">
-                NovaTerra
-                </a>
-                <button class="btn btn-outline-light text-light" type="button"> Vôtre panier <i class="fa-solid fa-basket-shopping"></i></button>
+                <h1 class="col-md-8 col-sm-12 fs-5">
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="/assets/img/logo.png" alt="Logo" width="55" class="d-inline-block align-text-top">
+                    <span class="myh1"> NovaTerra </span> 
+                    </a>
+                </h1>
+                <div class="col-md-4 col-sm-12 d-flex justify-content-end align-items-center">
+                    <a href="#panier"><button type="button" class="myBtnColor" id="btn">🛒 Panier</button></a>
+                </div>
             </div>
         </nav>
     </header>
-    <main class="container" id="main"></main>
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
-        <p class="col-md-4 mb-0 text-light">© 2025 Company, Inc</p>
-        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" aria-label="Bootstrap">
-            <img src="assets/img/logo.png" alt="logo" width="45" height="45" class="d-inline-block align-text-center">
-        </a> 
-        <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item">
-                <a href="#" class="nav-link px-2 text-light">Acceuil</a>
-            </li> 
-            <li class="nav-item">
-                <a href="#" class="nav-link px-2 text-light">FAQ</a>
-            </li> 
-            <li class="nav-item">
-                <a href="#" class="nav-link px-2 text-light">À propos</a>
-            </li>
-        </ul> 
-    </footer>
+
+    <div class="container">
+        <main class="row justify-content-around" id="main"></main>
+    </div>
+
+    <div class="myCart">
+        <h2 class="mb-5" id="titleCart"></h3>
+        <div id="panier"></div>
+        <p class="d-flex justify-content-end fs-5" id="priceTotal">Prix Total C-I</p>
+    </div>
+    <footer>
+        <p>Copyright ©nanaplouf - cours JavaScript/JSON pour le PoleS 2025</p>
+    </footer> 
     <script src="assets/js/script.js"></script>   
 </body>
 </html>   

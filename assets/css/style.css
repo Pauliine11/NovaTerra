@@ -1,3 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Kufam:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    margin: 0 auto;
+    background-image: url("/assets/img/galaxy.PNG");
+    background-size: cover;
+    font-family: "Bitcount", system-ui;
+}
+
+.btnStyle {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+nav{
+    background-color: #212529;
+}
+
 nav a {
     color: white;
+}
+
+footer{
+    background-color: #212529;
+    color: white;
+    height: 50px;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+.myBtnColor{
+    background: linear-gradient(rgba(44, 13, 73, 0.693), rgb(240, 137, 238));
+    color: aliceblue;
+    padding: 5px 50px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 2px solid rgba(44, 13, 73, 0.693);
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.myh1{
+    color: rgba(235, 201, 7, 0.836);
+    font-family: "Bitcount", system-ui;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.myCart{
+    background-color: rgba(44, 13, 73, 0.95);
+    margin: 50px 6%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    color: aliceblue;
+}
+
+.myH2{
+    color: rgb(238, 49, 112);
+    font-size: 18px;
+}
+
+.myP{
+    margin-left: 60px;
+}
+
+.myFooterCard{
+    border-top: 2px solid #10536657;
+    border-radius: 10px;
+    background-color: #0c4657b9;
+    padding: 10px 5px;
+}
+
+#h2Cart{
+    color: rgba(238, 49, 112, 0.521);
+    font-size: 25px;
+    font-family: soopafre;
+}
+
+.myBtnDelete{
+    background: linear-gradient(rgb(1, 2, 41), rgb(44, 13, 73));
+    color: aliceblue;
+    padding: 5px 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+@media screen and (max-width:768px){
+    .myBtnColor{
+        padding: 5px 20px;
+    }
+    
 }
